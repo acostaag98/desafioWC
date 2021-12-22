@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+.menu-item {
+	background-color:#cc805a;
+}
+.appetizers, .entrees {
+	max-width:30em;
+}
+img{
+	justify-content: center !important;
+	height: 220px;
+	width: 385px;
+	border-radius: 5px;
+}
+h2 {
+	font-family: 'Satisfy', cursive;
+	font-size:2.5em;
+	margin-bottom:0;
+	text-align: center;
+}
+body { 
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/restaurant_icons.png);
+}
+.container {
+	margin:0 auto;
+}
+.flex-column {
+	display:flex;
+	flex-direction:column;
+}
+.flex-row {
+	display:flex;
+	flex-direction:row;
+}
+.flex-wrap {
+	flex-wrap:wrap;
+}
+.flex-center {
+	justify-content:center;
+}
+.menu {
+	font-family: 'Arimo', sans-serif;
+}
+.menu-heading {
+	font-family: 'Satisfy', cursive;	
+	font-size:calc(2em + 3vw);
+	margin-bottom:0;
+	text-align:center;
+	color: black;
+}
+.menu-item {
+    box-shadow: 5px 5px 5px #888888;	
+	line-height:1.5em;	
+	max-height:15em;
+	margin:1em;
+	padding:.5em;
+	max-width:25em;
+}
+.menu-item-description {
+	margin:0;
+}
+
+@media all and (max-width: 500px) {
+	.appetizers, .entrees{
+		max-width:20em;
+	}
+	img{
+		justify-content: center !important;
+		height: 120px;
+		width: 270px;
+		border-radius: 5px;
+	}
+}

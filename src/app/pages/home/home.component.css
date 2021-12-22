@@ -1,0 +1,52 @@
+.carousel-inner{
+    object-fit: cover;
+    max-height: 600px;
+    height: 100vh!important;
+    width: 100%!important;
+}
+.d-block {
+    display: block!important;
+}
+
+.presentacion{
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.presentacion img{
+    width: 100px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.title{
+    font-family: 'Playfair Display', serif;
+}
+.stepBox{
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.stepBox h1{
+    justify-content: center;
+    text-align: center;
+    color: rgb(146, 146, 78);
+}
+.stepBox p{
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.text-center{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    padding: 30px;
+}
+.col-lg-4{
+    padding: 10px;
+}
+@media all and (max-width: 900px) {
+    .carousel-inner{
+        display: none;
+    }
+}
